@@ -26,56 +26,67 @@ function Container() {
       { id: 9, icon: 'pets', color: '#709fb0', stat: '' },
       { id: 10, icon: 'android', color: '#a0c1b8', stat: '' },
       { id: 10, icon: 'android', color: '#a0c1b8', stat: '' },
-      { id: 11, icon: 'support', color: '', stat: '' },
-      { id: 11, icon: 'support', color: '', stat: '' },
-      { id: 12, icon: 'group_work', color: '', stat: '' },
-      { id: 12, icon: 'group_work', color: '', stat: '' },
-      { id: 13, icon: 'nightlight_round', color: '', stat: '' },
-      { id: 13, icon: 'nightlight_round', color: '', stat: '' },
-      { id: 14, icon: 'label_important', color: '', stat: '' },
-      { id: 14, icon: 'label_important', color: '', stat: '' },
-      { id: 15, icon: 'commute', color: '', stat: '' },
-      { id: 15, icon: 'commute', color: '', stat: '' },
-      { id: 16, icon: 'flight_land', color: '', stat: '' },
-      { id: 16, icon: 'flight_land', color: '', stat: '' },
+      { id: 11, icon: 'support', color: '#FF5733', stat: '' },
+      { id: 11, icon: 'support', color: '#FF5733', stat: '' },
+      { id: 12, icon: 'group_work', color: '#F13108', stat: '' },
+      { id: 12, icon: 'group_work', color: '#F13108', stat: '' },
+      { id: 13, icon: 'nightlight_round', color: '#FAA325', stat: '' },
+      { id: 13, icon: 'nightlight_round', color: '#FAA325', stat: '' },
+      { id: 14, icon: 'label_important', color: '#C4F519', stat: '' },
+      { id: 14, icon: 'label_important', color: '#C4F519', stat: '' },
+      { id: 15, icon: 'commute', color: '#A3EC07', stat: '' },
+      { id: 15, icon: 'commute', color: '#A3EC07', stat: '' },
+      { id: 16, icon: 'flight_land', color: '#1CFF23', stat: '' },
+      { id: 16, icon: 'flight_land', color: '#1CFF23', stat: '' },
 
-      { id: 17, icon: 'pregnant_woman', color: '', stat: '' },
-      { id: 17, icon: 'pregnant_woman', color: '', stat: '' },
-      { id: 18, icon: 'offline_pin', color: '', stat: '' },
-      { id: 18, icon: 'offline_pin', color: '', stat: '' },
-      { id: 19, icon: 'alarm_add', color: '', stat: '' },
-      { id: 19, icon: 'alarm_add', color: '', stat: '' },
-      { id: 20, icon: 'spellcheck', color: '', stat: '' },
-      { id: 20, icon: 'spellcheck', color: '', stat: '' },
-      { id: 21, icon: 'eject', color: '', stat: '' },
-      { id: 21, icon: 'eject', color: '', stat: '' },
-      { id: 22, icon: 'gif_box', color: '', stat: '' },
-      { id: 22, icon: 'gif_box', color: '', stat: '' },
-      { id: 23, icon: 'currency_exchange', color: '', stat: '' },
-      { id: 23, icon: 'currency_exchange', color: '', stat: '' },
-      { id: 24, icon: 'shopping_cart_checkout', color: '', stat: '' },
-      { id: 24, icon: 'shopping_cart_checkout', color: '', stat: '' },
-
-      { id: 25, icon: 'switch_access_shortcut_add', color: '', stat: '' },
-      { id: 25, icon: 'switch_access_shortcut_add', color: '', stat: '' },
-      { id: 26, icon: 'lock_reset', color: '', stat: '' },
-      { id: 26, icon: 'lock_reset', color: '', stat: '' },
-      { id: 27, icon: 'join_full', color: '', stat: '' },
-      { id: 27, icon: 'join_full', color: '', stat: '' },
-      { id: 28, icon: 'webhook', color: '', stat: '' },
-      { id: 28, icon: 'webhook', color: '', stat: '' },
-      { id: 29, icon: 'assured_workload', color: '', stat: '' },
-      { id: 29, icon: 'assured_workload', color: '', stat: '' },
-      { id: 30, icon: 'display_settings', color: '', stat: '' },
-      { id: 30, icon: 'display_settings', color: '', stat: '' },
-      { id: 31, icon: 'install_mobile', color: '', stat: '' },
-      { id: 31, icon: 'install_mobile', color: '', stat: '' },
-      { id: 32, icon: 'view_cozy', color: '', stat: '' },
-      { id: 32, icon: 'view_cozy', color: '', stat: '' },
+      { id: 17, icon: 'pregnant_woman', color: '#01C907', stat: '' },
+      { id: 17, icon: 'pregnant_woman', color: '#01C907', stat: '' },
+      { id: 18, icon: 'offline_pin', color: '#01C953', stat: '' },
+      { id: 18, icon: 'offline_pin', color: '#01C953', stat: '' },
+      { id: 19, icon: 'alarm_add', color: '#4DF6B1', stat: '' },
+      { id: 19, icon: 'alarm_add', color: '#4DF6B1', stat: '' },
+      { id: 20, icon: 'spellcheck', color: '#0F9F64', stat: '' },
+      { id: 20, icon: 'spellcheck', color: '#0F9F64', stat: '' },
+      { id: 21, icon: 'eject', color: '#157CF1', stat: '' },
+      { id: 21, icon: 'eject', color: '#157CF1', stat: '' },
+      { id: 22, icon: 'gif_box', color: '#0A97CC', stat: '' },
+      { id: 22, icon: 'gif_box', color: '#0A97CC', stat: '' },
+      { id: 23, icon: 'currency_exchange', color: '#5E11E5', stat: '' },
+      { id: 23, icon: 'currency_exchange', color: '#5E11E5', stat: '' },
+      { id: 24, icon: 'shopping_cart_checkout', color: '#7A31F8', stat: '' },
+      { id: 24, icon: 'shopping_cart_checkout', color: '#7A31F8', stat: '' },
+      {
+        id: 25,
+        icon: 'switch_access_shortcut_add',
+        color: '#340585',
+        stat: '',
+      },
+      {
+        id: 25,
+        icon: 'switch_access_shortcut_add',
+        color: '#340585',
+        stat: '',
+      },
+      { id: 26, icon: 'lock_reset', color: '#620585', stat: '' },
+      { id: 26, icon: 'lock_reset', color: '#620585', stat: '' },
+      { id: 27, icon: 'join_full', color: '#BE35F1', stat: '' },
+      { id: 27, icon: 'join_full', color: '#BE35F1', stat: '' },
+      { id: 28, icon: 'webhook', color: '#EC00FF', stat: '' },
+      { id: 28, icon: 'webhook', color: '#EC00FF', stat: '' },
+      { id: 29, icon: 'assured_workload', color: '#791481', stat: '' },
+      { id: 29, icon: 'assured_workload', color: '#791481', stat: '' },
+      { id: 30, icon: 'display_settings', color: '#E42257', stat: '' },
+      { id: 30, icon: 'display_settings', color: '#E42257', stat: '' },
+      { id: 31, icon: 'install_mobile', color: '#F94A7A', stat: '' },
+      { id: 31, icon: 'install_mobile', color: '#F94A7A', stat: '' },
+      { id: 32, icon: 'view_cozy', color: '#C4073B', stat: '' },
+      { id: 32, icon: 'view_cozy', color: '#C4073B', stat: '' },
     ].sort(() => Math.random() - 0.5)
   );
 
   const [prev, setPrev] = useState(-1);
+  const [moves, setMoves] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
 
   function check(current) {
     if (items[current].id === items[prev].id) {
@@ -101,16 +112,40 @@ function Container() {
       items[id].stat = 'active';
       setItems([...items]);
       setPrev(id);
+      setMoves((moves) => moves + 1);
+      setBestScore((bestScore) => moves);
     } else {
       check(id);
     }
   }
 
+  function handleRestart() {
+    setMoves(0);
+    setBestScore(0);
+    // setTimeout(() => {
+    //   items.stat = '';
+    //   setItems([...items]);
+    // }, 1000);
+  }
+
   return (
-    <div className="container">
-      {items.map((item, index) => (
-        <Card key={index} item={item} id={index} handleClick={handleClick} />
-      ))}
+    <div class="">
+      <div class="p-6 max-w-sm mx-auto rounded-xl flex items-center space-x-4 text-white">
+        <div class="">Move : {moves}</div>
+        <button
+          onClick={handleRestart}
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Button
+        </button>
+        <div>Best Score : {bestScore}</div>
+      </div>
+
+      <div className="container">
+        {items.map((item, index) => (
+          <Card key={index} item={item} id={index} handleClick={handleClick} />
+        ))}
+      </div>
     </div>
   );
 }
