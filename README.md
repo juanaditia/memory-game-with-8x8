@@ -22,7 +22,7 @@ When the players have found all the pairs, the game is over. The player who has 
 - npm install -D tailwindcss
 
 and this the demo if you wanna try ! 
-https://app.netlify.com/sites/memory-game-8x8/deploys
+https://memory-game-8x8.netlify.app
 <br><br>
 
 
