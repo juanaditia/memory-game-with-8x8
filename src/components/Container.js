@@ -164,7 +164,7 @@ function Container() {
         </button>
       </div>
 
-      <div className="container">
+      <div className="w-[60%] m-auto grid grid-cols-8 grid-rows-8 gap-[10px] mb-[100px]">
         {items.map((item, index) => (
           <Card key={index} item={item} id={index} handleClick={handleClick} />
         ))}
