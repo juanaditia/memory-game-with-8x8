@@ -9,7 +9,7 @@ function Card(props) {
         style={{
           color: item.color,
         }}
-        class="material-icons"
+        className="material-icons"
       >
         {item.icon}
       </span>

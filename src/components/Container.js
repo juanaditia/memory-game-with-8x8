@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Card from './Card';
+import Swal from 'sweetalert2';
 // import dataMemory from '../data';
 
 function Container() {
@@ -122,23 +123,44 @@ function Container() {
   function handleRestart() {
     setMoves(0);
     setBestScore(0);
-    // setTimeout(() => {
-    //   items.stat = '';
-    //   setItems([...items]);
-    // }, 1000);
+    let tempItem = [];
+    items.map((item) => {
+      if (item.stat === 'correct') {
+        item.stat = '';
+      }
+      tempItem.push(item);
+    });
+    setItems(tempItem);
   }
 
+  useEffect(() => {
+    const getNotCorrect = items.find((item) => item.stat !== 'correct');
+    if (!getNotCorrect) {
+      const highScore = Math.min(moves, bestScore);
+      setBestScore(highScore);
+      console.log(highScore, 'end');
+      Swal.fire({
+        title: 'Your Finish The game !!!',
+        text: 'Your Best Score : ' + highScore,
+        icon: 'success',
+        confirmButtonText: 'OK',
+      }).then(() => {
+        handleRestart();
+      });
+    }
+  }, [items]);
+
   return (
-    <div class="">
-      <div class="p-6 max-w-sm mx-auto rounded-xl flex items-center space-x-4 text-white">
-        <div class="">Move : {moves}</div>
+    <div className="">
+      <div className="p-6 max-w-sm mx-auto rounded-xl flex items-center justify-center space-x-4 text-white">
+        <div className="">Move : {moves}</div>
+        <div>Best Score : {bestScore}</div>
         <button
           onClick={handleRestart}
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
-          Button
+          Reset
         </button>
-        <div>Best Score : {bestScore}</div>
       </div>
 
       <div className="container">
