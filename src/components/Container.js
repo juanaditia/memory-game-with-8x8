@@ -128,7 +128,7 @@ function Container() {
       if (item.stat === 'correct') {
         item.stat = '';
       }
-      tempItem.push(item);
+      return tempItem.push(item);
     });
     setItems(tempItem);
   }
@@ -148,6 +148,7 @@ function Container() {
         handleRestart();
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items]);
 
   return (
